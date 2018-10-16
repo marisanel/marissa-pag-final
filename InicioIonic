@@ -1,0 +1,33 @@
+ionic serve --lab
+
+
+Intalar e iniciar Ionic
+// npm install -g ionic cordova
+//cd ../../
+//cd Users\Akira\Documents
+//cd Pizzeria
+//npm install
+//npm start
+//ionic serve --lab
+
+
+Servidor Json 
+
+// cd Pizzeria
+//npm install -g json-server
+//cd json-server
+// json-server --watch db.json -d 2000
+//en el navegador correr LocalHost:3000
+
+
+//Comandos Ionic
+
+generar pagina: nos metemos ala carpeta srs/pages y "ionic generate page NombreDeLaPagina"
+
+Parar Servidor : ctrl+c
+
+Flecha arriba escribe la ultima linea
+
+
+
+

@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar transparent>
+    <button ion-button menuToggle>
+      <ion-icon color="light" name="menu"></ion-icon>
+    </button>
+    <ion-title text-center><span ion-text color="light">Inicio</span></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h3 text-center><span ion-text color="light">Wicked Pizzas</span></h3>
+  <ion-card *ngIf="dish">
+    <img src="{{'http://localhost:3000/'+ dish.image}}" />
+    <ion-card-content>
+      <ion-card-title>
+        {{dish.name | uppercase}}
+</ion-card-title>
+<p>
+  {{dish.description}}
+</p>
+    </ion-card-content>
+  </ion-card>
+
+  
+  <ion-card *ngIf="leader">
+    <img src="{{'http://localhost:3000/'+ leader.image}}" />
+    <ion-card-content>
+      <ion-card-title>
+        {{leader.name | uppercase}}
+</ion-card-title>
+<p>
+  {{leader.description}}
+</p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
+
+
+
+
+
